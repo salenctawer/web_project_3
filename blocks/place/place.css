@@ -1,0 +1,28 @@
+@import url(./__description/place__description.css);
+@import url(./__main-info/place__main-info.css);
+.place{
+    width: 984px;
+    height: 100%;
+    margin-bottom: 81px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ @media screen and (max-width:1279px){
+    .place{
+        width: 928px;
+    }
+}
+@media screen and (max-width:1023px){
+    .place{
+        width: 720px;
+        margin-bottom: 73px;
+    }
+}
+@media screen and (max-width:767px){
+
+    .place{
+        width: 320px;
+        flex-wrap: wrap;
+        margin-bottom: 48px;
+    }
+}

@@ -1,0 +1,29 @@
+.table__paragraph{
+    list-style-type: none;
+    margin-bottom: 25px;
+    font-family: 'Inter-400';
+    font-size: 18px;
+    line-height: 1.63;
+    color: white;
+    
+}
+.table__paragraph:last-child{
+    margin-bottom: 0;
+
+}
+@media screen and (max-width:1023px){
+
+    .table__paragraph{
+        font-size: 16px;
+        width: 352px;
+        margin-left: 28px;
+    }
+}
+@media screen and (max-width:767px){
+
+    .table__paragraph{
+        width: 288px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

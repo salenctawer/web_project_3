@@ -1,0 +1,11 @@
+.website__link{
+    list-style-type: none;
+    text-decoration-line: underline;
+    font-family: 'Inter-400';
+    font-size: 18px;
+    line-height: 1.22;
+    color: #FFFFFF;
+}
+.website__link:hover{
+    opacity: 0.8;
+}

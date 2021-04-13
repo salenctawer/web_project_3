@@ -1,0 +1,9 @@
+@import url(./_weight/intro__list_weight_bold.css);
+.intro__list{
+    margin-top: 30px;
+    font-family: 'Inter-400';
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+
+}

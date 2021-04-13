@@ -1,0 +1,30 @@
+.lead__image{
+    background-image: url(../../../images/lead-image.png);
+    width: 100%;
+    height: 615px; 
+    margin: 64px auto 8px auto;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: 50% 50%;
+}
+@media screen and (max-width:1279px){
+        
+    
+    .lead__image{
+        margin-top: 56px;
+        height: 580px;
+    }
+}
+@media screen and (max-width:1023px){
+
+    .lead__image{
+        height: 480px;
+    }
+}
+@media screen and (max-width:767px){
+
+    .lead__image{
+        height: 200px;
+        margin-top: 40px;
+    }
+}

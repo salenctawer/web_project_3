@@ -1,0 +1,11 @@
+@import url(./__paragraph/table__paragraph.css);
+.description__table{
+    width: 484px;
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width:1279px){
+    .description__table{
+        width: 456px;
+    }
+}

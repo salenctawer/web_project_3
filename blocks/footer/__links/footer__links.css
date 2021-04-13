@@ -1,0 +1,13 @@
+@import url(./__styles/links__styles.css);
+.footer__links{
+    width: 211px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+@media screen and (max-width:767px){
+
+    .footer__links{
+        flex-direction: column;
+    }
+}

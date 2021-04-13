@@ -1,0 +1,15 @@
+.website__url-heading{
+    list-style-type: none;
+    font-family: 'Inter-400';
+    font-size: 12px;
+    line-height: 1.7;
+    color: #AAAAAA;
+    padding-bottom: 4px;
+}
+@media screen and (max-width:1023px){
+
+    .website__url-heading{
+        margin-bottom: 12px;
+        line-height: 1;
+    }
+}

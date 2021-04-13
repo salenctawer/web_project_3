@@ -1,0 +1,13 @@
+.header__links_lang_es{
+    color: white;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Inter-400';  
+    text-decoration: none;
+}
+@media screen and (max-width:767px){
+
+    .header__links_lang_es{
+        font-size: 18px;
+    }
+}

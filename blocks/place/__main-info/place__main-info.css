@@ -1,0 +1,17 @@
+@import url(./__title/main-info__title.css);
+@import url(./__website/main-info__website.css);
+.place__main-info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+@media screen and (max-width:767px){
+
+    .place__main-info{
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+        width: 288px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
